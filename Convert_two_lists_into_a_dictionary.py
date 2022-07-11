@@ -13,10 +13,10 @@ def solution1(*args):
 
 
 def solution2(*args):
-    result = {}
-    for idx in range(len(keys)):
-        result.update({keys[idx]: values[idx]})
-    return result
+   result = {}
+   for idx in range(len(keys)):
+        result.update({keys[idx]:values[idx]})
+   return result
 
 keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
