@@ -10,4 +10,5 @@ class Vehicle:
         print(max_speed,mileage)
 
 
+
 modelX = Vehicle(240,180)

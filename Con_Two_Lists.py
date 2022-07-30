@@ -1,4 +1,11 @@
-#Concatenate two lists in the following order
+''' 
+ Concatenate two lists in the following order
+ list1 = ["Hello ", "take "]
+ list2 = ["Dear", "Sir"]
+
+    ['Hello Dear', 'Hello Sir', 'take Dear', 'take Sir']
+
+'''
 
 def solution1(*args):
     result = []
